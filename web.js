@@ -1,9 +1,9 @@
 var express = require('express');
 var app = express();
-var fileName = "index.html"
+var fileName = "index.html";
 
-var myBuf = fs.readFileSync(fileName)
-var myStr = myBuf.toString()
+var myBuf = fs.readFileSync(fileName);
+var myStr = myBuf.toString();
 
 app.use(express.logger());
 
